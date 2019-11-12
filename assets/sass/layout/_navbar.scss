@@ -2,9 +2,46 @@
 
 nav {
     #top-nav{
-
         height: 60px;
         width:  100vw;
         background-color: #000;
+
+        #adobe-logo{
+
+            height:  100%;
+            width:   74px;
+            padding: 0px 20px;
+            background-color: #222;
+        }
+
+        ul {
+            height: 100%;
+            width:  auto;
+            background-color: #444;
+
+            li {
+
+                height: 100%;
+                width: auto;
+                padding: 0px 20px;
+                background-color: #777;
+            }
+        } // ul
+
+        #account-info{
+            
+            height: 100%;
+            width: auto;
+            background-color: #444;
+
+            div{
+                height:  20px;
+                width:   20px;
+                padding: 10px;
+                background-color: #AAA;
+
+            }
+        }
+        
     } //top nav
 } //nav

@@ -57,4 +57,37 @@ nav #top-nav {
   width: 100vw;
   background-color: #000;
 }
+
+nav #top-nav #adobe-logo {
+  height: 100%;
+  width: 74px;
+  padding: 0px 20px;
+  background-color: #222;
+}
+
+nav #top-nav ul {
+  height: 100%;
+  width: auto;
+  background-color: #444;
+}
+
+nav #top-nav ul li {
+  height: 100%;
+  width: auto;
+  padding: 0px 20px;
+  background-color: #777;
+}
+
+nav #top-nav #account-info {
+  height: 100%;
+  width: auto;
+  background-color: #444;
+}
+
+nav #top-nav #account-info div {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  background-color: #AAA;
+}
 /*# sourceMappingURL=main.css.map */
