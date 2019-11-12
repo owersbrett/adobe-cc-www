@@ -1,1 +1,26 @@
 // HOME
+
+#home-hero {
+    @include basic-flex();
+
+    height: auto; 
+    min-height: 70vh;
+
+    width: 100vw;
+    background-color: #333;
+
+    #home-hero-content {
+        @include basic-flex(center, flex-start, column);
+
+        height: auto;
+        width: 70vw;
+        background-color: #555;
+
+        svg{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+
+    } //#home-hero-content
+} //#home-hero
