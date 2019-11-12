@@ -2,6 +2,9 @@
 
 nav {
     #top-nav{
+
+        @include basic-flex(space-between);
+
         height: 60px;
         width:  100vw;
         background-color: #000;
@@ -15,11 +18,16 @@ nav {
         }
 
         ul {
+
+            @include basic-flex();
+
             height: 100%;
             width:  auto;
             background-color: #444;
 
             li {
+
+                @include basic-flex();
 
                 height: 100%;
                 width: auto;
@@ -30,6 +38,8 @@ nav {
 
         #account-info{
             
+            @include basic-flex();
+
             height: 100%;
             width: auto;
             background-color: #444;
