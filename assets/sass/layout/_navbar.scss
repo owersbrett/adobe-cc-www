@@ -53,5 +53,27 @@ nav {
             }
         }
         
-    } //top nav
+    } //top-nav
+    #bottom-nav{
+
+        @include basic-flex();
+
+        height: 80px;
+        width:  100vw;
+        background-color: #CCC;
+
+        ul {
+            height: 100%;
+            width: auto;
+            background-color: #eee;
+
+            @include basic-flex();
+
+            li {
+                padding: 0px 18px;
+            }
+
+        }
+
+    } //bottom-nav
 } //nav
