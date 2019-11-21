@@ -12,9 +12,15 @@
         <script src="assets/js/main.js"></script>
     </head>
     <body>
+        <video class="video-desktop" preload="metadata" playsinline="" muted="" loop="" poster="/content/dam/cc/us/en/creativecloud/max2019/cc-overview-mobile-marquee.jpg.img.jpg">
+            <source src="https://images-tv.adobe.com/mpcv3/1ba53fdb-7ce4-41b0-b442-080fc89a0b7f_1571953596.960x540at1200_h264.mp4" type="video/mp4">
+        </video>
         <nav>
             <div id="top-nav">
-                <div id="adobe-logo"></div>
+                <div id="adobe-logo">
+                    <img src="/assets/imgs/Adobe-Logo.png" alt="">
+                    <span>Adobe</span> 
+                </div>
 
                 <!-- Middle Navigation  -->
                 <ul>
@@ -26,31 +32,36 @@
                 </ul>
                 
                 <div id="account-info">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div id="search"></div>
+                    <div id="my-face"></div>
+                    <div id="phone-menu"></div>
                 </div>
             </div> <!--#top-nav-->
+            
             <div id="bottom-nav">
                 <ul>
-                    <li>ADOBE CREATIVE CLOUD</li>
+                    <li class="acc">
+                        <img src="/assets/imgs/creativeCloudIcon.png" alt="">
+                        <span>ADOBE CREATIVE CLOUD</span>
+                    </li>
                     <li>Discover</li>
                     <li>Compare Plans</li>
                     <li>Learn & Support</li>
-                    <li>Your Creative Cloud</li>
+                    <li>
+                       <button>Choose a plan</button> 
+                    </li>
                 </ul>
             </div> <!--#bottom-nav-->
         </nav>
-
         <main>
+            <video autoplay loop src="https://images-tv.adobe.com/mpcv3/1ba53fdb-7ce4-41b0-b442-080fc89a0b7f_1571953596.960x540at1200_h264.mp4"></video>
             <div id="home-hero">
                 <div id="home-hero-content">
-                    <svg></svg>
-                    <h1>Creativity for all.</h1>
-                    <h2>Adobe Creative Cloud gives your the world's best creative apps
-                        and services so you can make anything you can imagine, 
-                        wherever you're inspired.</h2>
-                    <button class="cta">Start your free trial</button>
+                    <a href="#" id="creative-cloud">
+                    </a>
+                    <h1>Black Friday. It's on. Get 40% off.</h1>
+                    <h2>Save on the next generation of Creative Cloud . New apps, new features, and new ways to create. Offer ends November 29.</h2>
+                    <button class="cta">Buy now</button>
                 </div> <!-- home-hero-content-->
             </div> <!-- #home-hero -->
         </main>

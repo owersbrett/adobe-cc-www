@@ -1,5 +1,14 @@
 // HOME
 
+
+video{
+    position: fixed;
+    top: 60px;
+    width:100%;
+    z-index: -1;
+    
+
+}
 #home-hero {
     @include basic-flex();
 
@@ -7,19 +16,43 @@
     min-height: 70vh;
 
     width: 100vw;
-    background-color: #333;
-
+  
     #home-hero-content {
-        @include basic-flex(center, flex-start, column);
+        @include basic-flex(center, center, column);
 
         height: auto;
         width: 70vw;
-        background-color: #555;
+        color: #fff;
 
-        svg{
-            height: 100px;
-            width: 100px;
-            background-color: red;
+        h1{
+            padding: 28px 0px 0px 0px;
+            font-size: 45px;
+            font-weight: 800;
+        }
+        h2{
+            padding: 0px 0px 28px 0px;
+            width: 80%;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .cta {
+            margin: 0px 0px 120px 0px;
+        }
+        >#creative-cloud{
+            display: flex;
+           
+            height: 84px;
+            width: 112px;
+            background: url("/assets/imgs/creativeCloudIcon.png");
+            background-size: 112px 84px;
+
+            
+            p{
+                justify-self: center;
+                align-self: center;  
+            }
+            
         }
 
     } //#home-hero-content
